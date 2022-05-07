@@ -1,0 +1,75 @@
+* {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: aliceblue;
+  font-size: 2vmin;
+}
+body {
+  background: linear-gradient(118deg, rgb(0, 0, 0), rgba(146, 201, 192, 0.418)),
+    url("./images/math-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+form {
+  background: rgba(100, 0, 100, 0.4);
+  margin: 3vh 20vw 0 20vw;
+  padding: 2vh 0vw 2vh 3vw;
+  border-radius: 4px;
+  text-align: left;
+}
+h3 {
+  text-align: left;
+}
+input {
+  width: 90%;
+  height: 3vh;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 0.75vh;
+  margin-bottom: 0.75vh;
+  color: rgba(0, 0, 0, 0.8);
+}
+select {
+  display: block;
+  margin-top: 0.75vh;
+  margin-bottom: 0.75vh;
+  height: 3.5vh;
+  margin-left: 0.25vw;
+  border-radius: 5px;
+  width: 90%;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+option {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: 5%;
+  height: 2.5vh;
+}
+div {
+  margin-left: 0.25vw;
+  width: 90%;
+  height: 3vh;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 0.75vh;
+  margin-bottom: 0.75vh;
+}
+button {
+  background-color: violet;
+  border-radius: 10%;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-top: 4vh;
+  margin-right: auto;
+  color: aliceblue;
+  font-size: 2rem;
+}
+textarea {
+  max-width: 90%;
+}

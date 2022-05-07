@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Page Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <br />
+    <br />
+    <h1 id="title">Information about students</h1>
+    <p id="description">
+      Tell us about you and why do you want to take math classes.
+    </p>
+    <form action="#" id="survey-form">
+      <label for="name" id="name-label"
+        ><h3>Name</h3>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+      </label>
+      <label for="email-label" id="email-label">
+        <h3>Email</h3>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+      /></label>
+      <label for="number" id="number-label"
+        ><h3>
+          Age
+          <p style="display: inline">(Optional)</p>
+        </h3>
+        <input
+          type="number"
+          name="number-label"
+          id="number"
+          min="10"
+          max="20"
+          placeholder="Enter your age"
+      /></label>
+      <label for="dropdown">
+        <h3>Select your current eductation level</h3>
+        <select name="dropdown" id="dropdown">
+          <option value="Elementary School">Elementary School</option>
+          <option value="High School">High School</option>
+          <option value="College">College</option>
+          <option value="None of above">None of above</option>
+        </select>
+      </label>
+      <h3>Do you like math?</h3>
+      <div>
+        <label for="radio1"
+          ><input type="radio" name="name" id="radio1" />
+          <h3 style="display: inline">Yes</h3></label
+        >
+      </div>
+      <div>
+        <label for="radio2"
+          ><input type="radio" name="name" id="radio2" />
+          <h3 style="display: inline">No</h3></label
+        >
+      </div>
+      <h3>What topics would you like to learn?</h3>
+      <div>
+        <label for="checkbox1"
+          ><input
+            type="checkbox"
+            name="value"
+            id="checkbox1"
+            value="geometry"
+          />
+          <h3 style="display: inline">Geometry</h3></label
+        >
+      </div>
+      <div>
+        <label for="checkbox2"
+          ><input
+            type="checkbox"
+            name="value"
+            id="checkbox2"
+            value="linear-algebra"
+          />
+          <h3 style="display: inline">Linear Algebra</h3></label
+        >
+      </div>
+      <div>
+        <label for="checkbox3"
+          ><input
+            type="checkbox"
+            name="value"
+            id="checkbox3"
+            value="probability"
+          />
+          <h3 style="display: inline">Probability</h3></label
+        >
+      </div>
+      <div>
+        <label for="checkbox4"
+          ><input
+            type="checkbox"
+            name="value"
+            id="checkbox4"
+            value="calculus"
+          />
+          <h3 style="display: inline">Calculus</h3></label
+        >
+      </div>
+      <h3>Why do you want to learn mathematics?</h3>
+      <textarea name="text" id="textarea" cols="110" rows="10"></textarea>
+      <br />
+      <button type="submit">Sumbit</button>
+    </form>
+  </body>
+</html>
