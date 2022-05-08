@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+header {
+  position: fixed;
+  top: 0;
+  max-height: 100px;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  background-color: #eee;
+  width: 100%;
+}
+#logo {
+  margin-left: 10px;
+  width: 20%;
+}
+#header-img {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  height: 50%;
+}
+#math {
+  font-size: 25px;
+  margin-left: -150px;
+}
+nav {
+}
+nav > ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  text-align: right;
+  margin-left: 4px;
+}
+nav > ul > li {
+  font-size: 18px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
